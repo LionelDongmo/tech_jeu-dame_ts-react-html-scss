@@ -1,0 +1,52 @@
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+  background-image: url(../images/worldwide.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.intro {
+  color: #fff;
+}
+
+.intro h1 {
+  margin-bottom: 50px;
+  text-align: center;
+  font-size: 3em;
+  color: #e6082d;
+  font-weight: 800;
+}
+
+.intro li {
+  margin: 20px auto;
+}
+
+.jeux tbody {
+  background-color: #000;
+}
+
+.jeux form {
+  text-align: center;
+}
+
+.jeux input[type="button"] {
+  padding: 10px 20px;
+  margin-top: 20px;
+  border-radius: 5px;
+  background-color: #e6082d;
+  border-color: #e6082d;
+  color: #fff;
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */
